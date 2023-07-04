@@ -1,0 +1,441 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\RecordStore.bundle.scp.css",
+      "PackagePath": "staticwebassets\\RecordStore.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\images\\AM.jpg",
+      "PackagePath": "staticwebassets\\images\\AM.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\images\\All_the_Right_Moves.jpg",
+      "PackagePath": "staticwebassets\\images\\All_the_Right_Moves.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\images\\Arabella.jpg",
+      "PackagePath": "staticwebassets\\images\\Arabella.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\images\\Bigmouth_Strikes_Again.jpg",
+      "PackagePath": "staticwebassets\\images\\Bigmouth_Strikes_Again.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\images\\Dani_California.png",
+      "PackagePath": "staticwebassets\\images\\Dani_California.png"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\images\\Disintegration.jpg",
+      "PackagePath": "staticwebassets\\images\\Disintegration.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\images\\Do_I_Wanna_Know.jpg",
+      "PackagePath": "staticwebassets\\images\\Do_I_Wanna_Know.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\images\\Don't_Stop_Me_Now.jpg",
+      "PackagePath": "staticwebassets\\images\\Don't_Stop_Me_Now.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\images\\Fields_of_Gold.jpg",
+      "PackagePath": "staticwebassets\\images\\Fields_of_Gold.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\images\\Greatest_Hits.png",
+      "PackagePath": "staticwebassets\\images\\Greatest_Hits.png"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\images\\Hatful_of_Hollow.jpg",
+      "PackagePath": "staticwebassets\\images\\Hatful_of_Hollow.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\images\\Heaven.jpg",
+      "PackagePath": "staticwebassets\\images\\Heaven.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\images\\Here_Comes_the_Rain_Again.jpg",
+      "PackagePath": "staticwebassets\\images\\Here_Comes_the_Rain_Again.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\images\\How_Soon_Is_Now.jpg",
+      "PackagePath": "staticwebassets\\images\\How_Soon_Is_Now.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\images\\If_I_Ever_Lose_My_Faith_In_You.jpg",
+      "PackagePath": "staticwebassets\\images\\If_I_Ever_Lose_My_Faith_In_You.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\images\\It's_Only_Love.jpg",
+      "PackagePath": "staticwebassets\\images\\It's_Only_Love.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\images\\Jesus_to_a_Child.jpg",
+      "PackagePath": "staticwebassets\\images\\Jesus_to_a_Child.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\images\\Kick.jpg",
+      "PackagePath": "staticwebassets\\images\\Kick.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\images\\Killer_Queen.jpg",
+      "PackagePath": "staticwebassets\\images\\Killer_Queen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\images\\Ladies_&_Gentlemen.jpg",
+      "PackagePath": "staticwebassets\\images\\Ladies_&_Gentlemen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\images\\Livin'_on_a_Prayer.jpg",
+      "PackagePath": "staticwebassets\\images\\Livin'_on_a_Prayer.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\images\\Lullaby.jpg",
+      "PackagePath": "staticwebassets\\images\\Lullaby.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\images\\Need_you_Tonight.jpg",
+      "PackagePath": "staticwebassets\\images\\Need_you_Tonight.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\images\\Never_Tear_Us_Apart.jpg",
+      "PackagePath": "staticwebassets\\images\\Never_Tear_Us_Apart.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\images\\Personal_Jesus.jpg",
+      "PackagePath": "staticwebassets\\images\\Personal_Jesus.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\images\\Pictures_of_You.jpg",
+      "PackagePath": "staticwebassets\\images\\Pictures_of_You.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\images\\Policy_of_Truth.jpg",
+      "PackagePath": "staticwebassets\\images\\Policy_of_Truth.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\images\\Praying_for_Time.jpg",
+      "PackagePath": "staticwebassets\\images\\Praying_for_Time.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\images\\R_U_Mine.jpg",
+      "PackagePath": "staticwebassets\\images\\R_U_Mine.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\images\\Reckless.jpg",
+      "PackagePath": "staticwebassets\\images\\Reckless.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\images\\Secrets.jpg",
+      "PackagePath": "staticwebassets\\images\\Secrets.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\images\\Shape_of_My_Heart.jpg",
+      "PackagePath": "staticwebassets\\images\\Shape_of_My_Heart.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\images\\Slippery_When_Wet.jpg",
+      "PackagePath": "staticwebassets\\images\\Slippery_When_Wet.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\images\\Summer_of_69.jpg",
+      "PackagePath": "staticwebassets\\images\\Summer_of_69.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\images\\Ten_Summoner's_Tales.png",
+      "PackagePath": "staticwebassets\\images\\Ten_Summoner's_Tales.png"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\images\\The_Queen_is_Dead.png",
+      "PackagePath": "staticwebassets\\images\\The_Queen_is_Dead.png"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\images\\There_Is_a_Light_That_Never_Goes_Out.jpg",
+      "PackagePath": "staticwebassets\\images\\There_Is_a_Light_That_Never_Goes_Out.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\images\\This_Charming_Man.png",
+      "PackagePath": "staticwebassets\\images\\This_Charming_Man.png"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\images\\Touch.png",
+      "PackagePath": "staticwebassets\\images\\Touch.png"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\images\\Violator.png",
+      "PackagePath": "staticwebassets\\images\\Violator.png"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\images\\Waking_Up.png",
+      "PackagePath": "staticwebassets\\images\\Waking_Up.png"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\images\\Who's_That_Girl.jpg",
+      "PackagePath": "staticwebassets\\images\\Who's_That_Girl.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\images\\Why'd_You_Only_Call_Me_When_You're_High.jpg",
+      "PackagePath": "staticwebassets\\images\\Why'd_You_Only_Call_Me_When_You're_High.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\images\\You_Give_Love_a_Bad_Name.jpg",
+      "PackagePath": "staticwebassets\\images\\You_Give_Love_a_Bad_Name.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ana\\Desktop\\MusicStore\\RecordStore\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.RecordStore.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.RecordStore.props",
+      "PackagePath": "build\\RecordStore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.RecordStore.props",
+      "PackagePath": "buildMultiTargeting\\RecordStore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.RecordStore.props",
+      "PackagePath": "buildTransitive\\RecordStore.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
