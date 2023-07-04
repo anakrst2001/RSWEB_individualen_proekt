@@ -1,0 +1,85 @@
+﻿@model RecordStore.ViewModels.ArtistNameSurnameNationalityFilter
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+@if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+{
+    <p>
+        <a asp-action="Create">Create New</a>
+    </p>
+}
+
+<form asp-controller="Artists" asp-action="Index" method="get">
+    <p>
+        <select asp-for="ArtistNationality" asp-items="Model.Nationalities">
+            <option value="">All</option>
+        </select>
+        First Name: <input type="text" asp-for="ArtistFirstName" />
+        Last Name: <input type="text" asp-for="ArtistLastName" />
+        <input type="submit" value="Filter" />
+    </p>
+</form>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Artists[0].FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Artists[0].LastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Artists[0].BirthDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Artists[0].Age)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Artists[0].Nationality)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Artists[0].Gender)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Artists) {
+        <tr>
+            <td>
+                    <a asp-controller="Albums" asp-action="Index" asp-route-id="@item.Id">@Html.DisplayFor(modelItem => item.FirstName)</a>
+            </td>
+            <td>
+                    <a asp-controller="Albums" asp-action="Index" asp-route-id="@item.Id">@Html.DisplayFor(modelItem => item.LastName)</a>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BirthDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Age)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nationality)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Gender)
+            </td>
+            <td>
+                    @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+                    {
+                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                    }
+                    |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+                    {
+                        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    }
+                </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -1,0 +1,83 @@
+﻿@model RecordStore.ViewModels.AlbumGenresViewModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Album</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Album.Id" />
+            <div class="form-group">
+                <label asp-for="Album.Name" class="control-label"></label>
+                <input asp-for="Album.Name" class="form-control" />
+                <span asp-validation-for="Album.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Album.Released" class="control-label"></label>
+                <input asp-for="Album.Released" class="form-control" />
+                <span asp-validation-for="Album.Released" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Album.Image" class="control-label"></label>
+                <input type="file" name="file" />
+                @if (ViewBag.Message != null)
+                {
+                    <div class="alert" style="margin-top:20px">
+                        @ViewBag.Message
+                    </div>
+                }
+            </div>
+            <div class="form-group">
+                <label asp-for="Album.Label" class="control-label"></label>
+                <input asp-for="Album.Label" class="form-control" />
+                <span asp-validation-for="Album.Label" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Album.ArtistId" class="control-label"></label>
+                <select asp-for="Album.ArtistId" class="form-control" asp-items="ViewBag.ArtistId"></select>
+                <span asp-validation-for="Album.ArtistId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Genres</label>
+                <select asp-for="SelectedGenres" class="form-control js-example-basic-multiple"
+                        asp-items="Model.GenreList"> </select>
+                <span asp-validation-for="SelectedGenres" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Songs</label>
+                <select asp-for="SelectedSongs" class="form-control js-example-basic-multiple"
+                        asp-items="Model.SongList"> </select>
+                <span asp-validation-for="SelectedSongs" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#SelectedGenres").select2();
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $("#SelectedSongs").select2();
+        });
+    </script>
+}

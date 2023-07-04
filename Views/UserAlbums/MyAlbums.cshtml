@@ -1,0 +1,77 @@
+﻿@model IEnumerable<RecordStore.Models.Album>
+
+@{
+    ViewData["Title"] = "MyRecords";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>My records</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Image)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Released)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Artist)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Songs)
+            </th>
+            <th>
+                Post review
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    <a asp-controller="Songs" asp-action="Index" asp-route-id="@item.Id">@Html.DisplayFor(modelItem => item.Name)</a>
+                </td>
+                <td>
+                    <img src="~/images/@item.Image" height="320" width="320">
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Released)
+                </td>
+                <td>
+                    @if (item.ArtistId != null)
+                    {
+                        <a asp-controller="Artists" asp-action="Details" asp-route-id="@item.ArtistId"> @Html.DisplayFor(modelItem => item.Artist.FullName)</a>
+                    }
+                </td>
+                <td>
+                    @foreach (var song in @item.Songs)
+                    {
+                        <a asp-controller="Songs" asp-action="Details" asp-route-id="@song.Id"> @song.Title </a> <br />
+                    }
+                </td>
+                <td>
+                    <a asp-controller="Reviews" asp-action="PostReviewUserLogged" asp-route-albumid="@item.Id">Post review for this record!</a>
+                </td>
+                <td>
+                    @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+                    {
+                        <a asp-controller="Albums" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                    }
+                    |
+                    <a asp-controller="Albums" asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    @if (User.Identity.IsAuthenticated && User.IsInRole("Admin"))
+                    {
+                        <a asp-controller="Albums" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

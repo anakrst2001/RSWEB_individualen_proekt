@@ -1,0 +1,54 @@
+﻿@model RecordStore.Models.Review
+@using Microsoft.AspNetCore.Identity
+@using RecordStore.Areas.Identity.Data
+@inject SignInManager<RecordStoreUser> SignInManager
+@inject UserManager<RecordStoreUser> UserManager
+
+@{
+    ViewData["Title"] = "Bought albums";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Reviews for my records</h1>
+
+<h4>Feel free to share your review and rating of the record @ViewData["AlbumName"]!</h4>
+<hr />
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="PostReviewUserLogged">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div type="hidden" class="form-group">
+                <input type="hidden" asp-for="AppUser" class="form-control" value="@UserManager.GetUserName(User)" />
+                <span asp-validation-for="AppUser" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Comment" class="control-label"></label>
+                <input asp-for="Comment" class="form-control" />
+                <span asp-validation-for="Comment" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Rating" class="control-label"></label>
+                <input asp-for="Rating" class="form-control" />
+                <span asp-validation-for="Rating" class="text-danger"></span>
+            </div>
+            <div type="hidden" class="form-group">
+                <input type="hidden" asp-for="AlbumId" class="form-control" value="@ViewBag.AlbumId" />
+                <span asp-validation-for="AlbumId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create review for @ViewData["AlbumName"]" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
